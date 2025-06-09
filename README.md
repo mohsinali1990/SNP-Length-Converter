@@ -1,1 +1,1 @@
-# SNP-Position-Unit-Converter
+# SNP-Length-Unit-Converter
