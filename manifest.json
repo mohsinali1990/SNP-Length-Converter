@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "SNP Position Unit Converter",
+  "version": "1.0",
+  "description": "Convert SNP/base pair positions into kb, Mb, Gb, and amino acids.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["clipboardWrite"]
+}

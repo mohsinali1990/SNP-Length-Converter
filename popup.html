@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SNP Position Converter</title>
+  <script src="popup.js" defer></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 10px;
+      width: 270px;
+    }
+    .row {
+      margin: 6px 0;
+    }
+    input, button {
+      width: 100%;
+      padding: 6px;
+      font-size: 1em;
+    }
+    label {
+      font-size: 0.9em;
+    }
+    button {
+      background-color: #f44336;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #d32f2f;
+    }
+  </style>
+</head>
+<body>
+  <h3>SNP Position Converter</h3>
+
+  <div class="row">
+    <label for="bp">Base Pairs (bp):</label>
+    <input id="bp" type="number" placeholder="e.g., 1000" />
+  </div>
+
+  <div class="row">
+    <label for="kb">Kilobase Pairs (kb):</label>
+    <input id="kb" type="number" />
+  </div>
+
+  <div class="row">
+    <label for="mb">Megabase Pairs (Mb):</label>
+    <input id="mb" type="number" />
+  </div>
+
+  <div class="row">
+    <label for="gb">Gigabase Pairs (Gb):</label>
+    <input id="gb" type="number" />
+  </div>
+
+  <div class="row">
+    <label for="aa">Amino Acids (aa):</label>
+    <input id="aa" type="number" />
+  </div>
+
+  <div class="row">
+    <button id="clear">Clear All</button>
+  </div>
+</body>
+</html>
