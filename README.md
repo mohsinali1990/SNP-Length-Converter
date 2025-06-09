@@ -10,10 +10,11 @@ A simple lightweight and efficient Chrome Extension that converts molecular mark
 
 Useful for molecular biologists, geneticists, breeders, and bioinformatics professionals.
 
-📸 Screenshots
+# 📸 Screenshots
+![SNP Length Converter Screenshot](screenshot.png)
 
 
-🚀 Installation (Unpacked)
+# 🚀 Installation (Unpacked)
 
 1. Download or clone this repository:
 
