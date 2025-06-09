@@ -18,8 +18,9 @@ Useful for molecular biologists, geneticists, breeders, and bioinformatics profe
 
 1. Download or clone this repository:
 
-git clone https://github.com/yourusername/SNP-Length-Converter.git
-
+```{r}
+git clone https://github.com/mohsinali1990/SNP-Length-Converter.git
+```
 2. Open Chrome and go to: chrome://extensions/
 
 3. Enable Developer Mode
